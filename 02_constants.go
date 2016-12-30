@@ -13,7 +13,7 @@ const (
 )
 
 const (
-    A = "abc" 
+    A = "abc"
     B = len(A)
     C = unsafe.Sizeof(A)
 )
