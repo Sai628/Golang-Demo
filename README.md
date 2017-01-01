@@ -1,1 +1,1 @@
-# Some Demo for Golang
+# golang example of https://gobyexample.com
