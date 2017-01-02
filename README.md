@@ -1,1 +1,1 @@
-# golang example of https://gobyexample.com
+golang example of https://gobyexample.com
