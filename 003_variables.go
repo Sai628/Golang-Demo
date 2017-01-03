@@ -12,6 +12,9 @@ func main()  {
     var d = true
     fmt.Println(d)  // true
 
+    var e int
+    fmt.Println(e)  // 0
+
     f := "short"
     fmt.Println(f)  // short
 }
