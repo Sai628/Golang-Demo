@@ -3,9 +3,9 @@ package main
 import "fmt"
 import "time"
 
-func main()  {
+func main() {
 
-    c1 := make(chan string)    
+    c1 := make(chan string)
     c2 := make(chan string)
     
     go func() {

@@ -7,7 +7,7 @@ type person struct {
     age int
 }
 
-func main()  {
+func main() {
 
     fmt.Println(person{"Bob", 20})  // {Bob 20}
 

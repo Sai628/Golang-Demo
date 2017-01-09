@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func main()  {
-    messages := make(chan string)    
+func main() {
+    messages := make(chan string)
     signals := make(chan string)
 
     select {

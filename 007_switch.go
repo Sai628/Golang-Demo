@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "time"
 
-func main()  {
+func main() {
     
     i := 2
     fmt.Print("Write ", i, " as ")
@@ -31,7 +31,7 @@ func main()  {
         fmt.Println("It's after noon")  // It's after noon
     }
 
-    whatAmI := func (i interface{})  {
+    whatAmI := func (i interface{}) {
         switch t := i.(type) {
         case bool:
             fmt.Println("I'm a bool")

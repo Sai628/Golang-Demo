@@ -26,7 +26,7 @@ func f2(arg int) (int, error) {
     return arg + 3, nil
 }
 
-func main()  {
+func main() {
 
     for _, i := range []int{7, 42} {
         if r, e := f1(i); e != nil {

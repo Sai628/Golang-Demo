@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
     messages := make(chan string, 2)
 
-    messages <- "buffered"    
+    messages <- "buffered"
     messages <- "channel"
 
     fmt.Println(<-messages)  // buffered

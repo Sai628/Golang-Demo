@@ -3,9 +3,9 @@ package main
 import "fmt"
 import "time"
 
-func main()  {
+func main() {
 
-    c1 := make(chan string, 1)    
+    c1 := make(chan string, 1)
     go func() {
         time.Sleep(time.Second * 2)
         c1 <- "result 1"

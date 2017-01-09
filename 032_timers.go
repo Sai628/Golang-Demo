@@ -3,9 +3,9 @@ package main
 import "fmt"
 import "time"
 
-func main()  {
+func main() {
 
-    timer1 := time.NewTimer(time.Second * 2)    
+    timer1 := time.NewTimer(time.Second * 2)
 
     <-timer1.C
     fmt.Println("Timer 1 expired")  // Timer 1 expired (after ~2s)

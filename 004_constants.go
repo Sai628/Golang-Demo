@@ -5,7 +5,7 @@ import "math"
 
 const s string = "constant"
 
-func main()  {
+func main() {
     fmt.Println(s)  // constant
 
     const n = 500000000
