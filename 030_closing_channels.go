@@ -28,7 +28,7 @@ func main() {
 
     <-done
 
-    // output like the following(they are base the go runtime):
+    // output like the following(they are base on go runtime):
 
     // sent job: 0
     // received job: 0

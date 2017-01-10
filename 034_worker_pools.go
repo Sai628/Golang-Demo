@@ -30,7 +30,7 @@ func main() {
         <-results
     }
 
-    // output like the following(they are base the go runtime):
+    // output like the following(they are base on go runtime):
 
     // worker 2 started job 3
     // worker 3 started job 1
