@@ -7,7 +7,7 @@ var p = fmt.Println
 
 func main() {
 
-    p("Contains:  ", s.Contains("test", "es"))  // [PEACH APPLE PEAR PLUM]
+    p("Contains:  ", s.Contains("test", "es"))  // Contains:   true
     p("Count:     ", s.Count("test", "t"))  // Count:      2
     p("HasPrefix: ", s.HasPrefix("test", "te"))  // HasPrefix:  true
     p("HasSuffix: ", s.HasSuffix("test", "st"))  // HasSuffix:  true
