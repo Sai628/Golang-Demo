@@ -8,7 +8,7 @@ type point struct {
 }
 
 func main() {
-    
+
     p := point{1, 2}
 
     fmt.Printf("%v\n", p)  // {1 2}
@@ -36,10 +36,10 @@ func main() {
     fmt.Printf("|%6d|%6d|\n", 12, 345)         // |    12|   345|
     fmt.Printf("|%6.2f|%6.2f|\n", 1.2, 3.45)   // |  1.20|  3.45|
     fmt.Printf("|%-6.2f|%-6.2f|\n", 1.2, 3.45) // |1.20  |3.45  |
-    
+
     fmt.Printf("|%6s|%6s|\n", "foo", "b")      // |   foo|     b|
     fmt.Printf("|%-6s|%-6s|\n", "foo", "b")    // |foo   |b     |
-    
+
     s := fmt.Sprintf("a %s", "string")
     fmt.Println(s)  // a string
 
