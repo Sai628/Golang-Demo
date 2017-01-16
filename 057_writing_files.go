@@ -41,7 +41,7 @@ func main() {
     w.Flush()
 
 
-    // after run this example program, we can use the following commands to check the writing files result:
+    // After run this example program, we can use the following commands to check the writing files result:
     
     // $ cat /tmp/dat1
     // hello

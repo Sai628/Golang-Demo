@@ -16,7 +16,7 @@ func check(e error) {
 
 func main() {
 
-    // before run this example program, should create file /tmp/dat, and write some string on it.)
+    // Before run this example program, should create file /tmp/dat, and write some string on it.
     // we can complete this by using following commands:
 
     // $ echo "hello" > /tmp/dat
